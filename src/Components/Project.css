@@ -1,0 +1,78 @@
+#more-project{
+    background-color: #2d2e31;
+    color: white;
+    padding: 0rem 5rem 0rem 5rem;
+}
+#more-project .row{
+    background-color: #393939;
+    border-radius: 10px;
+    padding: 2rem 1rem ;
+}
+#more-project::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ffb257;
+    margin-top: 3rem; 
+}
+#more-project h1{
+    color: #ffb257;
+}
+#more-project .card{
+    border: unset;
+    text-align: center;
+    padding-bottom: 1rem;
+
+    }
+#more-project .card .button{
+        background-color: #ffb257;
+        text-decoration: none;
+        color: white;
+        padding: .4rem 1rem;
+        border: unset;
+        border-radius: .5rem;
+        margin-top: 1rem;
+        font-family: "Oswald", sans-serif;
+    }
+#more-project .advance,.intermediate,.begineer{
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+#more-project .advance::after,.intermediate::after,.begineer::after {
+        content: "";
+        display: block;
+        width: 30%;
+        height: 3px;
+        background-color: #ffb257;
+        margin-top: 10px; 
+    }
+    @media(max-width:992px){
+        #more-project .advance::after,.intermediate::after,.begineer::after {
+       
+            width: 40%;
+
+        }
+    }
+
+@media(max-width:768px){
+    #more-project{
+        padding: 0rem 3rem 0rem 3rem;
+    }
+    #more-project .row{
+        padding: 2rem 1rem 0rem 1rem ;
+    }
+    #more-project .advance,.intermediate,.begineer{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    #more-project .card{
+        margin: 0 0 2rem 0rem;
+    }
+}
+@media(max-width:576px){
+    #more-project{
+        padding: 0rem 1rem 0rem 1rem;    
+    }
+}

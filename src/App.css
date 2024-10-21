@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* For WebKit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 6px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ffb257 ; /* color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* color of the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* color of the thumb on hover */
+  }

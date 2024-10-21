@@ -1,0 +1,62 @@
+#contact-section{
+    background-color: #2d2e31;
+    padding: 4rem 0 2rem 0;
+    text-align: center;
+    color: white;
+}
+#contact-section .row-1, .row-2{
+    display: flex;
+    justify-content: center;
+}
+#contact-section .row-1{
+    margin-bottom: 2rem;
+}
+#contact-section .row-2{
+    margin-bottom: 2rem;
+}
+#contact-section .row-3 span{
+font-size: 2rem;
+margin: 1rem;
+}
+#contact-section .email, .mobile, .jamia,.mdu{
+    background-color: #393939;
+    color: #ffb257;
+    border-radius: 1rem;
+    padding: .8rem;
+    width: 45%;
+    margin: 0 1rem;
+}
+#contact-section .contact{
+    background-color: #ffb257;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding:.5rem 1rem;
+    /* margin-top: 1rem; */
+    border-radius: 15px;
+}
+@media(max-width:768px){
+    #contact-section .row-1, .row-2{
+        display: block;
+    }
+    #contact-section .email, .mobile, .jamia,.mdu{
+        background-color: #393939;
+        color: #ffb257;
+        border-radius: 1rem;
+        padding: .8rem;
+        width: 95%;
+        margin: 0 auto 1.5rem auto;
+        
+    }
+}
+@media(max-width:576px){
+    #contact-section{
+        padding: 4rem 1rem 2rem 1rem;
+    }
+    #contact-section .row-3 span{
+        font-size: 1rem;
+    }
+    #contact-section .row-4{
+        font-size: .8rem;
+    }
+}

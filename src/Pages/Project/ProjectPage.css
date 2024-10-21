@@ -1,0 +1,43 @@
+#project-section{
+    background-color: #393939;
+    padding: 4rem 3rem;
+    text-align: center;
+    color: white;
+    border: unset;
+}
+#project-section .card {
+    padding-bottom: 1rem;
+    border: unset;
+}
+#project-section .button{
+    background-color: #ffb257;
+    text-decoration: none;
+    color: white;
+    padding: .4rem 1rem;
+    border: unset;
+    border-radius: .5rem;
+    margin-right: .5rem;
+    margin-top: 1rem;
+    font-family: "Oswald", sans-serif;
+}
+@media(min-width:1400px){
+    #project-section{
+        padding: 4rem 11rem;
+    }
+}
+
+@media(max-width:768px){
+    #project-section{
+        padding: 4rem 3rem 2rem 3rem;    
+    }
+    #project-section .card{
+        margin: 0 0 2rem 0rem;
+    }
+
+}
+@media(max-width:576px){
+    #project-section{
+        padding: 4rem 1rem 2rem 1rem;    
+    }
+
+}

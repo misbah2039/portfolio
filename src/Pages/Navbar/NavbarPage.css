@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.navbar-section{
+    background-color:#393939;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 4px 10px #262627;
+}
+.navbar-brand{
+    color: #ffb257;
+    font-family: "Dancing Script", "cursive";
+    margin-left: 3rem;
+  
+}
+.navbar-section ul{
+    margin-left: -7rem;
+}
+.navbar-section ul li{
+    padding:0.5rem 1.5rem ;
+}
+.nav-link{
+    color: #dadadb;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background-color: #ffb257;
+    border-radius: 8px;
+    transition: all 1.5s;
+    color: white;
+}
+.nav-link:active{
+    background-color: #ffb257;
+}
+
+@media(max-width:992px){
+    .navbar-section ul li{
+        padding:0.5rem 1rem ;
+    }
+    .navbar-section ul{
+        margin-left: -6rem;
+    }
+    
+   
+}
+@media(max-width:767px){
+    .navbar-toggler{
+        margin-right:1rem;
+        background-color: #393939;
+    }
+    .nav-link{
+        color: black;
+    }
+    .navbar-brand{ 
+        margin-left: 1rem;
+    }
+    .navbar-section ul{
+        margin: auto;
+    }
+}

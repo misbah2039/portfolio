@@ -1,0 +1,49 @@
+
+#more-about{
+    background-color: #393939;
+    color: white;
+    padding: 0rem 5rem 4rem 5rem;
+}
+
+#more-about h1{
+    color: #ffb257;
+}
+
+#more-about p{
+    text-align: justify;
+}
+#more-about .education{
+    margin-top: 3rem;
+}
+.btech,.diploma,.inter,.high{
+    background-color:#2d2e31 ;
+    margin: 2rem 0 0 0rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+#more-about .education::after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 3px;
+    background-color: #ffb257;
+    margin-top: 10px; 
+}
+@media(max-width:767px){
+    #more-about{
+        padding: 0rem 2rem 2rem 2rem;
+    }
+    #more-about .education::after {
+        content: "";
+        display: block;
+        width: 40%;
+        height: 3px;
+        background-color: #ffb257;
+        margin: 10px auto; /* Adjust as needed for spacing */
+        
+    }
+    .btech,.diploma,.inter,.high{
+        margin: 2rem 0 0 0rem;
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,28 @@
+/* src/Breadcrumb.css */
+.breadcrumb {
+    list-style: none;
+    display: flex;
+  }
+  
+  .breadcrumb li {
+    margin-right: 8px;
+  }
+  
+  .breadcrumb li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .breadcrumb li a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb li::after {
+    content: '/';
+    margin-left: 8px;
+  }
+  
+  .breadcrumb li:last-child::after {
+    content: '';
+  }
+  
